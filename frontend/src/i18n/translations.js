@@ -47,7 +47,7 @@ const translations = {
     'gate.language.foot': 'आप भाषा कभी भी टॉप बार से बदल सकते हैं।',
     'role.title': 'इस रूप में लॉगिन करें',
     'role.subtitle': 'आगे बढ़ने के लिए अपनी भूमिका चुनें',
-    'role.farmer': 'किसान)',
+    'role.farmer': 'किसान',
     'role.farmer.desc': 'रजिस्टर करें, स्लॉट बुक करें, खरीद और भुगतान ट्रैक करें',
     'role.operator': 'खरीद केंद्र संचालक',
     'role.operator.desc': 'टोकन चेक-इन करें, क्वालिटी चेक करें, तोलाई',
