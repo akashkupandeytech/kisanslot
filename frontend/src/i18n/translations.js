@@ -52,7 +52,6 @@ const translations = {
     'reg.bankAccount': 'Bank Account (for Payment)',
     'reg.farmingMode': 'Farming Mode',
     'reg.save': 'Save Profile'
-
   },
   hi: {
     'gate.title': 'KisanSlot',
@@ -88,7 +87,19 @@ const translations = {
     'common.liveOn': 'लाइव अपडेट्स चालू हैं',
     'common.connecting': 'कनेक्ट हो रहा है..',
     'common.registerPrompt': 'रजिस्टर करें',
-    'common.home': 'होम'
+    'common.home': 'होम',
+    'reg.title': 'Kisan Profile',
+    'reg.subtitle': 'Apni details bharein taaki portal ki saari services use kar sakein.',
+    'reg.fullName': 'Poora Naam',
+    'reg.guardianName': 'Pita/Pati ka Naam',
+    'reg.mobile': 'Mobile Number',
+    'reg.village': 'Village / Gaon',
+    'reg.district': 'District',
+    'reg.state': 'State',
+    'reg.landArea': 'Land Area (bigha/hectare)',
+    'reg.bankAccount': 'Bank Account (Payment ke liye)',
+    'reg.farmingMode': 'Farming Mode',
+    'reg.save': 'Profile Save Karein'
   },
   pa: {
     'gate.title': 'KisanSlot',
@@ -137,7 +148,6 @@ const translations = {
     'reg.bankAccount': 'ਬੈਂਕ ਖਾਤਾ (ਭੁਗਤਾਨ ਲਈ)',
     'reg.farmingMode': 'ਖੇਤੀ ਦੀ ਕਿਸਮ',
     'reg.save': 'ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਕਰੋ'
-
   },
   mr: {
     'gate.title': 'KisanSlot',
@@ -173,7 +183,19 @@ const translations = {
     'common.liveOn': 'लाइव्ह अपडेट सुरू',
     'common.connecting': 'कनेक्ट होत आहे...',
     'common.registerPrompt': 'नोंदणी करा',
-    'common.home': 'मुख्यपृष्ठ'
+    'common.home': 'मुख्यपृष्ठ',
+    'reg.title': 'शेतकरी प्रोफाइल',
+    'reg.subtitle': 'पोर्टलच्या सर्व सेवा वापरण्यासाठी आपली माहिती भरा.',
+    'reg.fullName': 'पूर्ण नाव',
+    'reg.guardianName': 'वडिलांचे/पतीचे नाव',
+    'reg.mobile': 'मोबाइल नंबर',
+    'reg.village': 'गाव',
+    'reg.district': 'जिल्हा',
+    'reg.state': 'राज्य',
+    'reg.landArea': 'जमीन क्षेत्र (बिघा/हेक्टर)',
+    'reg.bankAccount': 'बँक खाते (पेमेंटसाठी)',
+    'reg.farmingMode': 'शेतीचा प्रकार',
+    'reg.save': 'प्रोफाइल सेव्ह करा'
   },
   gu: {
     'gate.title': 'KisanSlot',
@@ -209,7 +231,19 @@ const translations = {
     'common.liveOn': 'લાઈવ અપડેટ ચાલુ',
     'common.connecting': 'કનેક્ટ થઈ રહ્યું છે...',
     'common.registerPrompt': 'નોંધણી કરો',
-    'common.home': 'હોમ'
+    'common.home': 'હોમ',
+    'reg.title': 'ખેડૂત પ્રોફાઇલ',
+    'reg.subtitle': 'પોર્ટલની બધી સેવાઓનો ઉપયોગ કરવા માટે તમારી વિગતો ભરો.',
+    'reg.fullName': 'પૂરું નામ',
+    'reg.guardianName': 'પિતા/પતિનું નામ',
+    'reg.mobile': 'મોબાઇલ નંબર',
+    'reg.village': 'ગામ',
+    'reg.district': 'જિલ્લો',
+    'reg.state': 'રાજ્ય',
+    'reg.landArea': 'જમીનનો વિસ્તાર (વીઘા/હેક્ટર)',
+    'reg.bankAccount': 'બેંક ખાતું (ચુકવણી માટે)',
+    'reg.farmingMode': 'ખેતીનો પ્રકાર',
+    'reg.save': 'પ્રોફાઇલ સેવ કરો'
   },
   bn: {
     'gate.title': 'KisanSlot',
@@ -245,7 +279,19 @@ const translations = {
     'common.liveOn': 'লাইভ আপডেট চালু',
     'common.connecting': 'সংযোগ হচ্ছে...',
     'common.registerPrompt': 'নিবন্ধন করুন',
-    'common.home': 'হোম'
+    'common.home': 'হোম',
+    'reg.title': 'কৃষক প্রোফাইল',
+    'reg.subtitle': 'পোর্টালের সমস্ত পরিষেবা ব্যবহার করতে আপনার বিবরণ পূরণ করুন।',
+    'reg.fullName': 'পুরো নাম',
+    'reg.guardianName': 'পিতা/স্বামীর নাম',
+    'reg.mobile': 'মোবাইল নম্বর',
+    'reg.village': 'গ্রাম',
+    'reg.district': 'জেলা',
+    'reg.state': 'রাজ্য',
+    'reg.landArea': 'জমির পরিমাণ (বিঘা/হেক্টর)',
+    'reg.bankAccount': 'ব্যাংক অ্যাকাউন্ট (পেমেন্টের জন্য)',
+    'reg.farmingMode': 'চাষের ধরন',
+    'reg.save': 'প্রোফাইল সংরক্ষণ করুন'
   },
   ta: {
     'gate.title': 'KisanSlot',
@@ -281,7 +327,19 @@ const translations = {
     'common.liveOn': 'நேரடி புதுப்பிப்பு இயக்கத்தில்',
     'common.connecting': 'இணைக்கிறது...',
     'common.registerPrompt': 'பதிவு செய்யவும்',
-    'common.home': 'முகப்பு'
+    'common.home': 'முகப்பு',
+    'reg.title': 'விவசாயி சுயவிவரம்',
+    'reg.subtitle': 'போர்டலின் அனைத்து சேவைகளையும் பயன்படுத்த உங்கள் விவரங்களை நிரப்பவும்.',
+    'reg.fullName': 'முழு பெயர்',
+    'reg.guardianName': 'தந்தை/கணவர் பெயர்',
+    'reg.mobile': 'மொபைல் எண்',
+    'reg.village': 'கிராமம்',
+    'reg.district': 'மாவட்டம்',
+    'reg.state': 'மாநிலம்',
+    'reg.landArea': 'நில பரப்பளவு (பிகா/ஹெக்டேர்)',
+    'reg.bankAccount': 'வங்கி கணக்கு (பணம் செலுத்த)',
+    'reg.farmingMode': 'விவசாய முறை',
+    'reg.save': 'சுயவிவரத்தை சேமி'
   },
   te: {
     'gate.title': 'KisanSlot',
@@ -317,7 +375,19 @@ const translations = {
     'common.liveOn': 'లైవ్ అప్‌డేట్‌లు ఆన్‌లో ఉన్నాయి',
     'common.connecting': 'కనెక్ట్ అవుతోంది...',
     'common.registerPrompt': 'నమోదు చేసుకోండి',
-    'common.home': 'హోమ్'
+    'common.home': 'హోమ్',
+    'reg.title': 'రైతు ప్రొఫైల్',
+    'reg.subtitle': 'పోర్టల్ సేవలన్నింటినీ ఉపయోగించడానికి మీ వివరాలను పూరించండి.',
+    'reg.fullName': 'పూర్తి పేరు',
+    'reg.guardianName': 'తండ్రి/భర్త పేరు',
+    'reg.mobile': 'మొబైల్ నంబర్',
+    'reg.village': 'గ్రామం',
+    'reg.district': 'జిల్లా',
+    'reg.state': 'రాష్ట్రం',
+    'reg.landArea': 'భూమి విస్తీర్ణం (బిఘా/హెక్టార్)',
+    'reg.bankAccount': 'బ్యాంక్ ఖాతా (చెల్లింపు కోసం)',
+    'reg.farmingMode': 'వ్యవసాయ విధానం',
+    'reg.save': 'ప్రొఫైల్ సేవ్ చేయండి'
   },
   kn: {
     'gate.title': 'KisanSlot',
@@ -353,7 +423,19 @@ const translations = {
     'common.liveOn': 'ಲೈವ್ ಅಪ್‌ಡೇಟ್‌ಗಳು ಆನ್ ಆಗಿವೆ',
     'common.connecting': 'ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...',
     'common.registerPrompt': 'ನೋಂದಣಿ ಮಾಡಿ',
-    'common.home': 'ಮುಖಪುಟ'
+    'common.home': 'ಮುಖಪುಟ',
+    'reg.title': 'ರೈತ ಪ್ರೊಫೈಲ್',
+    'reg.subtitle': 'ಪೋರ್ಟಲ್‌ನ ಎಲ್ಲಾ ಸೇವೆಗಳನ್ನು ಬಳಸಲು ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ.',
+    'reg.fullName': 'ಪೂರ್ಣ ಹೆಸರು',
+    'reg.guardianName': 'ತಂದೆ/ಗಂಡನ ಹೆಸರು',
+    'reg.mobile': 'ಮೊಬೈಲ್ ಸಂಖ್ಯೆ',
+    'reg.village': 'ಗ್ರಾಮ',
+    'reg.district': 'ಜಿಲ್ಲೆ',
+    'reg.state': 'ರಾಜ್ಯ',
+    'reg.landArea': 'ಭೂ ವಿಸ್ತೀರ್ಣ (ಬಿಘಾ/ಹೆಕ್ಟೇರ್)',
+    'reg.bankAccount': 'ಬ್ಯಾಂಕ್ ಖಾತೆ (ಪಾವತಿಗಾಗಿ)',
+    'reg.farmingMode': 'ಕೃಷಿ ವಿಧಾನ',
+    'reg.save': 'ಪ್ರೊಫೈಲ್ ಉಳಿಸಿ'
   },
   ml: {
     'gate.title': 'KisanSlot',
@@ -389,7 +471,19 @@ const translations = {
     'common.liveOn': 'തത്സമയ അപ്‌ഡേറ്റുകൾ ഓണാണ്',
     'common.connecting': 'ബന്ധിപ്പിക്കുന്നു...',
     'common.registerPrompt': 'രജിസ്റ്റർ ചെയ്യുക',
-    'common.home': 'ഹോം'
+    'common.home': 'ഹോം',
+    'reg.title': 'കർഷക പ്രൊഫൈൽ',
+    'reg.subtitle': 'പോർട്ടലിന്റെ എല്ലാ സേവനങ്ങളും ഉപയോഗിക്കാൻ നിങ്ങളുടെ വിവരങ്ങൾ പൂരിപ്പിക്കുക.',
+    'reg.fullName': 'മുഴുവൻ പേര്',
+    'reg.guardianName': 'പിതാവിന്റെ/ഭർത്താവിന്റെ പേര്',
+    'reg.mobile': 'മൊബൈൽ നമ്പർ',
+    'reg.village': 'ഗ്രാമം',
+    'reg.district': 'ജില്ല',
+    'reg.state': 'സംസ്ഥാനം',
+    'reg.landArea': 'ഭൂമിയുടെ വിസ്തീർണ്ണം (ബിഘ/ഹെക്ടർ)',
+    'reg.bankAccount': 'ബാങ്ക് അക്കൗണ്ട് (പേയ്‌മെന്റിനായി)',
+    'reg.farmingMode': 'കൃഷി രീതി',
+    'reg.save': 'പ്രൊഫൈൽ സേവ് ചെയ്യുക'
   },
   or: {
     'gate.title': 'KisanSlot',
@@ -425,7 +519,19 @@ const translations = {
     'common.liveOn': 'ଲାଇଭ୍ ଅପଡେଟ୍ ଚାଲୁ',
     'common.connecting': 'ସଂଯୋଗ ହେଉଛି...',
     'common.registerPrompt': 'ପଞ୍ଜିକରଣ କରନ୍ତୁ',
-    'common.home': 'ହୋମ'
+    'common.home': 'ହୋମ',
+    'reg.title': 'କୃଷକ ପ୍ରୋଫାଇଲ',
+    'reg.subtitle': 'ପୋର୍ଟାଲର ସମସ୍ତ ସେବା ବ୍ୟବହାର କରିବାକୁ ଆପଣଙ୍କର ବିବରଣୀ ପୂରଣ କରନ୍ତୁ।',
+    'reg.fullName': 'ପୂର୍ଣ୍ଣ ନାମ',
+    'reg.guardianName': 'ପିତା/ସ୍ୱାମୀଙ୍କ ନାମ',
+    'reg.mobile': 'ମୋବାଇଲ ନମ୍ବର',
+    'reg.village': 'ଗାଁ',
+    'reg.district': 'ଜିଲ୍ଲା',
+    'reg.state': 'ରାଜ୍ୟ',
+    'reg.landArea': 'ଜମି କ୍ଷେତ୍ରଫଳ (ବିଘା/ହେକ୍ଟର)',
+    'reg.bankAccount': 'ବ୍ୟାଙ୍କ ଖାତା (ଦେୟ ପାଇଁ)',
+    'reg.farmingMode': 'ଚାଷ ପ୍ରକାର',
+    'reg.save': 'ପ୍ରୋଫାଇଲ ସେଭ୍ କରନ୍ତୁ'
   },
   as: {
     'gate.title': 'KisanSlot',
@@ -461,7 +567,19 @@ const translations = {
     'common.liveOn': 'লাইভ আপডেট অন আছে',
     'common.connecting': 'সংযোগ হৈ আছে...',
     'common.registerPrompt': 'পঞ্জীয়ন কৰক',
-    'common.home': 'হোম'
+    'common.home': 'হোম',
+    'reg.title': "কৃষক প্ৰ'ফাইল",
+    'reg.subtitle': "প'ৰ্টেলৰ আটাইবোৰ সেৱা ব্যৱহাৰ কৰিবলৈ আপোনাৰ সবিশেষ পূৰ কৰক।",
+    'reg.fullName': 'সম্পূৰ্ণ নাম',
+    'reg.guardianName': 'পিতৃ/স্বামীৰ নাম',
+    'reg.mobile': 'মোবাইল নম্বৰ',
+    'reg.village': 'গাঁও',
+    'reg.district': 'জিলা',
+    'reg.state': 'ৰাজ্য',
+    'reg.landArea': 'মাটিৰ পৰিমাণ (বিঘা/হেক্টৰ)',
+    'reg.bankAccount': 'বেংক একাউণ্ট (পৰিশোধৰ বাবে)',
+    'reg.farmingMode': 'খেতিৰ ধৰণ',
+    'reg.save': "প্ৰ'ফাইল ছেভ কৰক"
   },
   ur: {
     'gate.title': 'KisanSlot',
@@ -497,7 +615,19 @@ const translations = {
     'common.liveOn': 'لائیو اپڈیٹس آن ہیں',
     'common.connecting': 'رابطہ ہو رہا ہے...',
     'common.registerPrompt': 'رجسٹر کریں',
-    'common.home': 'ہوم'
+    'common.home': 'ہوم',
+    'reg.title': 'کسان پروفائل',
+    'reg.subtitle': 'پورٹل کی تمام خدمات استعمال کرنے کے لیے اپنی تفصیلات پُر کریں۔',
+    'reg.fullName': 'پورا نام',
+    'reg.guardianName': 'والد/شوہر کا نام',
+    'reg.mobile': 'موبائل نمبر',
+    'reg.village': 'گاؤں',
+    'reg.district': 'ضلع',
+    'reg.state': 'ریاست',
+    'reg.landArea': 'زمین کا رقبہ (بیگھہ/ہیکٹر)',
+    'reg.bankAccount': 'بینک اکاؤنٹ (ادائیگی کے لیے)',
+    'reg.farmingMode': 'کاشتکاری کا طریقہ',
+    'reg.save': 'پروفائل محفوظ کریں'
   }
 };
 
