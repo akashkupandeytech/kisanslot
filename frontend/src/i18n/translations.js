@@ -40,6 +40,19 @@ const translations = {
     'common.connecting': 'Connecting...',
     'common.registerPrompt': 'Register karein',
     'common.home': 'Home'
+    'reg.title': 'Farmer Profile',
+    'reg.subtitle': 'Fill in your details to use all portal services.',
+    'reg.fullName': 'Full Name',
+    'reg.guardianName': "Father's/Husband's Name",
+    'reg.mobile': 'Mobile Number',
+    'reg.village': 'Village / Gaon',
+    'reg.district': 'District',
+    'reg.state': 'State',
+    'reg.landArea': 'Land Area (bigha/hectare)',
+    'reg.bankAccount': 'Bank Account (for Payment)',
+    'reg.farmingMode': 'Farming Mode',
+    'reg.save': 'Save Profile'
+
   },
   hi: {
     'gate.title': 'KisanSlot',
