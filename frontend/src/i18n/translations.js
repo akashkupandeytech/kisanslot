@@ -58,6 +58,10 @@ const translations = {
     'payment.crop': 'Crop',
     'payment.amount': 'Amount',
     'payment.stage': 'Payment Stage',
+    'market.title': 'Market Prices (MSP Reference)',
+'market.crop': 'Crop',
+'market.msp': 'MSP (₹/quintal)',
+'market.trend': 'Trend',
   },
   hi: {
     'gate.title': 'KisanSlot',
@@ -111,7 +115,11 @@ const translations = {
     'payment.empty': 'इस समय दिखाने के लिए कोई भुगतान उपलब्ध नहीं है।',
     'payment.crop': 'फसल',
     'payment.amount': 'राशि',
-    'payment.stage': 'भुगतान चरण'
+    'payment.stage': 'भुगतान चरण',
+    'market.title': 'बाजार भाव (MSP संदर्भ)',
+'market.crop': 'फसल',
+'market.msp': 'MSP (₹/क्विंटल)',
+'market.trend': 'रुझान',
   },
   pa: {
     'gate.title': 'KisanSlot',
@@ -165,7 +173,11 @@ const translations = {
 'payment.empty': 'ਇਸ ਸਮੇਂ ਦਿਖਾਉਣ ਲਈ ਕੋਈ ਭੁਗਤਾਨ ਨਹੀਂ ਹੈ।',
 'payment.crop': 'ਫਸਲ',
 'payment.amount': 'ਰਕਮ',
-'payment.stage': 'ਭੁਗਤਾਨ ਪੜਾਅ'
+'payment.stage': 'ਭੁਗਤਾਨ ਪੜਾਅ',
+    'market.title': 'ਮੰਡੀ ਭਾਅ (MSP ਹਵਾਲਾ)',
+'market.crop': 'ਫਸਲ',
+'market.msp': 'MSP (₹/ਕੁਇੰਟਲ)',
+'market.trend': 'ਰੁਝਾਨ',
   },
   mr: {
     'gate.title': 'KisanSlot',
@@ -219,7 +231,11 @@ const translations = {
 'payment.empty': 'सध्या दाखवण्यासाठी कोणतेही पेमेंट उपलब्ध नाही.',
 'payment.crop': 'पीक',
 'payment.amount': 'रक्कम',
-'payment.stage': 'पेमेंटचा टप्पा'
+'payment.stage': 'पेमेंटचा टप्पा',
+    'market.title': 'बाजार भाव (MSP संदर्भ)',
+'market.crop': 'पीक',
+'market.msp': 'MSP (₹/क्विंटल)',
+'market.trend': 'कल',
   },
   gu: {
     'gate.title': 'KisanSlot',
@@ -273,7 +289,11 @@ const translations = {
 'payment.empty': 'હાલમાં બતાવવા માટે કોઈ ચુકવણી ઉપલબ્ધ નથી.',
 'payment.crop': 'પાક',
 'payment.amount': 'રકમ',
-'payment.stage': 'ચુકવણીનો તબક્કો'
+'payment.stage': 'ચુકવણીનો તબક્કો',
+    'market.title': 'બજાર ભાવ (MSP સંદર્ભ)',
+'market.crop': 'પાક',
+'market.msp': 'MSP (₹/ક્વિન્ટલ)',
+'market.trend': 'વલણ',
   },
   bn: {
     'gate.title': 'KisanSlot',
@@ -327,7 +347,11 @@ const translations = {
 'payment.empty': 'এই মুহূর্তে দেখানোর মতো কোনো পেমেন্ট নেই।',
 'payment.crop': 'ফসল',
 'payment.amount': 'পরিমাণ',
-'payment.stage': 'পেমেন্টের ধাপ'
+'payment.stage': 'পেমেন্টের ধাপ',
+    'market.title': 'বাজার মূল্য (MSP রেফারেন্স)',
+'market.crop': 'ফসল',
+'market.msp': 'MSP (₹/কুইন্টাল)',
+'market.trend': 'প্রবণতা',
   },
   ta: {
     'gate.title': 'KisanSlot',
@@ -381,7 +405,11 @@ const translations = {
 'payment.empty': 'தற்போது காட்டுவதற்கு எந்த கட்டணமும் இல்லை.',
 'payment.crop': 'பயிர்',
 'payment.amount': 'தொகை',
-'payment.stage': 'கட்டண நிலை'
+'payment.stage': 'கட்டண நிலை',
+    'market.title': 'சந்தை விலைகள் (MSP குறிப்பு)',
+'market.crop': 'பயிர்',
+'market.msp': 'MSP (₹/குவிண்டால்)',
+'market.trend': 'போக்கு',
   },
   te: {
     'gate.title': 'KisanSlot',
@@ -435,7 +463,11 @@ const translations = {
 'payment.empty': 'ప్రస్తుతం చూపించడానికి ఎలాంటి చెల్లింపులు లేవు.',
 'payment.crop': 'పంట',
 'payment.amount': 'మొత్తం',
-'payment.stage': 'చెల్లింపు దశ'
+'payment.stage': 'చెల్లింపు దశ',
+    'market.title': 'మార్కెట్ ధరలు (MSP సూచన)',
+'market.crop': 'పంట',
+'market.msp': 'MSP (₹/క్వింటాల్)',
+'market.trend': 'ధోరణి',
   },
   kn: {
     'gate.title': 'KisanSlot',
@@ -489,7 +521,11 @@ const translations = {
 'payment.empty': 'ಈ ಸಮಯದಲ್ಲಿ ತೋರಿಸಲು ಯಾವುದೇ ಪಾವತಿಗಳಿಲ್ಲ.',
 'payment.crop': 'ಬೆಳೆ',
 'payment.amount': 'ಮೊತ್ತ',
-'payment.stage': 'ಪಾವತಿ ಹಂತ'
+'payment.stage': 'ಪಾವತಿ ಹಂತ',
+    'market.title': 'ಮಾರುಕಟ್ಟೆ ಬೆಲೆಗಳು (MSP ಉಲ್ಲೇಖ)',
+'market.crop': 'ಬೆಳೆ',
+'market.msp': 'MSP (₹/ಕ್ವಿಂಟಲ್)',
+'market.trend': 'ಪ್ರವೃತ್ತಿ',
   },
   ml: {
     'gate.title': 'KisanSlot',
@@ -543,7 +579,11 @@ const translations = {
 'payment.empty': 'ഇപ്പോൾ കാണിക്കാൻ പേയ്‌മെന്റുകളൊന്നുമില്ല.',
 'payment.crop': 'വിള',
 'payment.amount': 'തുക',
-'payment.stage': 'പേയ്‌മെന്റ് ഘട്ടം'
+'payment.stage': 'പേയ്‌മെന്റ് ഘട്ടം',
+    'market.title': 'വിപണി വിലകൾ (MSP റഫറൻസ്)',
+'market.crop': 'വിള',
+'market.msp': 'MSP (₹/ക്വിന്റൽ)',
+'market.trend': 'പ്രവണത',
   },
   or: {
     'gate.title': 'KisanSlot',
@@ -597,7 +637,11 @@ const translations = {
 'payment.empty': 'ଏହି ସମୟରେ ଦେଖାଇବା ପାଇଁ କୌଣସି ପେମେଣ୍ଟ ନାହିଁ।',
 'payment.crop': 'ଫସଲ',
 'payment.amount': 'ରାଶି',
-'payment.stage': 'ପେମେଣ୍ଟ ପର୍ଯ୍ୟାୟ'
+'payment.stage': 'ପେମେଣ୍ଟ ପର୍ଯ୍ୟାୟ',
+    'market.title': 'ବଜାର ମୂଲ୍ୟ (MSP ସନ୍ଦର୍ଭ)',
+'market.crop': 'ଫସଲ',
+'market.msp': 'MSP (₹/କ୍ୱିଣ୍ଟାଲ)',
+'market.trend': 'ଧାରା',
   },
   as: {
     'gate.title': 'KisanSlot',
@@ -651,7 +695,11 @@ const translations = {
 'payment.empty': 'এই মুহূৰ্তত দেখুৱাবলৈ কোনো পেমেণ্ট নাই।',
 'payment.crop': 'শস্য',
 'payment.amount': 'পৰিমাণ',
-'payment.stage': 'পেমেণ্টৰ পৰ্যায়'
+'payment.stage': 'পেমেণ্টৰ পৰ্যায়',
+    'market.title': 'বজাৰৰ মূল্য (MSP প্ৰসংগ)',
+'market.crop': 'শস্য',
+'market.msp': 'MSP (₹/কুইণ্টল)',
+'market.trend': 'ধাৰা',
   },
   ur: {
     'gate.title': 'KisanSlot',
@@ -705,7 +753,11 @@ const translations = {
 'payment.empty': 'اس وقت دکھانے کے لیے کوئی ادائیگی موجود نہیں ہے۔',
 'payment.crop': 'فصل',
 'payment.amount': 'رقم',
-'payment.stage': 'ادائیگی کا مرحلہ'
+'payment.stage': 'ادائیگی کا مرحلہ',
+    'market.title': 'مارکیٹ کی قیمتیں (MSP حوالہ)',
+'market.crop': 'فصل',
+'market.msp': 'MSP (₹/کوئنٹل)',
+'market.trend': 'رجحان',
   }
 };
 
