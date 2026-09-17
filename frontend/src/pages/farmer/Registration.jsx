@@ -11,7 +11,7 @@ export default function Registration({ farmer, setFarmer, showToast }) {
     mobile: '',
     village: '',
     district: '',
-    state: 'Uttarakhand',
+    state: '',
     land: '',
     bank: '',
     mode: 'Owner'
@@ -38,7 +38,7 @@ export default function Registration({ farmer, setFarmer, showToast }) {
   const submit = async () => {
     if (!form.name.trim() || !form.mobile.trim()) {
       setMsg({
-        text: 'Naam aur Mobile Number zaroori hai.',
+        text: 'Name and mobile number are required..',
         ok: false
       });
       return;
@@ -50,12 +50,12 @@ export default function Registration({ farmer, setFarmer, showToast }) {
       setFarmer(res.data);
 
       setMsg({
-        text: 'Profile save ho gayi.',
+        text: 'Profile save.',
         ok: true
       });
 
       if (showToast) {
-        showToast('Farmer profile save ho gayi');
+        showToast('Farmer profile save');
       }
     } catch (err) {
       setMsg({
@@ -82,7 +82,7 @@ export default function Registration({ farmer, setFarmer, showToast }) {
           <input
             value={form.name}
             onChange={update('name')}
-            placeholder="Ram Singh"
+            placeholder="Name"
           />
         </div>
 
@@ -92,7 +92,7 @@ export default function Registration({ farmer, setFarmer, showToast }) {
           <input
             value={form.father}
             onChange={update('father')}
-            placeholder="Shyam Singh"
+            placeholder="Father name"
           />
         </div>
       </div>
@@ -116,7 +116,7 @@ export default function Registration({ farmer, setFarmer, showToast }) {
           <input
             value={form.village}
             onChange={update('village')}
-            placeholder="Gaon ka naam"
+            placeholder="Village"
           />
         </div>
       </div>
@@ -128,7 +128,7 @@ export default function Registration({ farmer, setFarmer, showToast }) {
           <input
             value={form.district}
             onChange={update('district')}
-            placeholder="Dehradun"
+            placeholder="district"
           />
         </div>
 
@@ -138,7 +138,7 @@ export default function Registration({ farmer, setFarmer, showToast }) {
           <input
             value={form.state}
             onChange={update('state')}
-            placeholder="Uttarakhand"
+            placeholder="state"
           />
         </div>
       </div>
@@ -160,7 +160,7 @@ export default function Registration({ farmer, setFarmer, showToast }) {
           <input
             value={form.bank}
             onChange={update('bank')}
-            placeholder="Account no. + IFSC"
+            placeholder="Account no."
           />
         </div>
       </div>
