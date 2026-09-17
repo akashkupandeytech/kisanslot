@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../api.js';
+import { t } from '../../i18n/translations';
 
 export default function Registration({ farmer, setFarmer, showToast }) {
   const [form, setForm] = useState({
