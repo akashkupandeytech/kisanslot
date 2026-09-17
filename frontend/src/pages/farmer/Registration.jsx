@@ -28,10 +28,10 @@ export default function Registration({ farmer, setFarmer, showToast }) {
 
   return (
     <div className="card">
-    <h3>{t('profile.title')}</h3>
+    <h3>{t('reg.title')}</h3>
 
     <p className="desc">
-      {t('profile.description')}
+      {t('reg.description')}
     </p>
       <div className="row2">
         <div className="field"><label>Poora Naam</label><input value={form.name} onChange={update('name')} placeholder="Ram Singh" /></div>
