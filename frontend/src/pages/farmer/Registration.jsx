@@ -27,7 +27,6 @@ export default function Registration({ farmer, setFarmer, showToast }) {
   };
 
   return (
-   return (
   <div className="card">
     <h3>{t('reg.title')}</h3>
 
