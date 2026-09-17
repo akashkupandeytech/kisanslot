@@ -112,6 +112,19 @@ const translations = {
     'common.connecting': 'ਕਨੈਕਟ ਹੋ ਰਿਹਾ ਹੈ...',
     'common.registerPrompt': 'ਰਜਿਸਟਰ ਕਰੋ',
     'common.home': 'ਹੋਮ'
+    'reg.title': 'ਕਿਸਾਨ ਪ੍ਰੋਫਾਈਲ',
+    'reg.subtitle': 'ਪੋਰਟਲ ਦੀਆਂ ਸਾਰੀਆਂ ਸੇਵਾਵਾਂ ਵਰਤਣ ਲਈ ਆਪਣੇ ਵੇਰਵੇ ਭਰੋ।',
+    'reg.fullName': 'ਪੂਰਾ ਨਾਮ',
+    'reg.guardianName': 'ਪਿਤਾ/ਪਤੀ ਦਾ ਨਾਮ',
+    'reg.mobile': 'ਮੋਬਾਈਲ ਨੰਬਰ',
+    'reg.village': 'ਪਿੰਡ',
+    'reg.district': 'ਜ਼ਿਲ੍ਹਾ',
+    'reg.state': 'ਰਾਜ',
+    'reg.landArea': 'ਜ਼ਮੀਨ ਦਾ ਖੇਤਰ (ਵਿੱਘਾ/ਹੈਕਟੇਅਰ)',
+    'reg.bankAccount': 'ਬੈਂਕ ਖਾਤਾ (ਭੁਗਤਾਨ ਲਈ)',
+    'reg.farmingMode': 'ਖੇਤੀ ਦੀ ਕਿਸਮ',
+    'reg.save': 'ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਕਰੋ'
+
   },
   mr: {
     'gate.title': 'KisanSlot',
