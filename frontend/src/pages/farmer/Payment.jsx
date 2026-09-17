@@ -16,25 +16,45 @@ export default function Payment({ slots }) {
   const rateFor = (crop) => prices.find((p) => p.crop === crop)?.price || 2000;
 
   return (
-    <div className="card">
-      <h3>Payment Status</h3>
-      <p className="desc">PFMS-linked DBT — Initiated → Processed → Credited. Weighing complete hote hi payment shuru hota hai.</p>
-      {payable.length === 0 ? (
-        <div className="empty"><div className="ic">💰</div>Abhi koi payment show karne layak nahi hai.</div>
-      ) : (
-        <table>
-          <thead><tr><th>Fasal</th><th>Amount</th><th>Payment Stage</th></tr></thead>
-          <tbody>
-            {payable.map((s) => (
-              <tr key={s._id}>
-                <td>{s.crop} ({s.qty}q)</td>
-                <td>₹{(rateFor(s.crop) * s.qty).toLocaleString('en-IN')}</td>
-                <td>{stageBadge(s.paymentStage)}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      )}
+  <div className="card">
+  <h3>{t('payment.title')}</h3>
+
+  <p className="desc">
+    {t('payment.description')}
+  </p>
+
+  {payable.length === 0 ? (
+    <div className="empty">
+      <div className="ic">💰</div>
+      {t('payment.empty')}
     </div>
-  );
-}
+  ) : (
+    <table>
+      <thead>
+        <tr>
+          <th>{t('payment.crop')}</th>
+          <th>{t('payment.amount')}</th>
+          <th>{t('payment.stage')}</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {payable.map((s) => (
+          <tr key={s._id}>
+            <td>
+              {s.crop} ({s.qty}q)
+            </td>
+
+            <td>
+              ₹{(rateFor(s.crop) * s.qty).toLocaleString('en-IN')}
+            </td>
+
+            <td>
+              {stageBadge(s.paymentStage)}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+</div>
