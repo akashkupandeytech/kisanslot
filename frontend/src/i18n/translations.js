@@ -39,7 +39,7 @@ const translations = {
     'common.liveOn': 'Live updates ON',
     'common.connecting': 'Connecting...',
     'common.registerPrompt': 'Register karein',
-    'common.home': 'Home'
+    'common.home': 'Home',
     'reg.title': 'Farmer Profile',
     'reg.subtitle': 'Fill in your details to use all portal services.',
     'reg.fullName': 'Full Name',
@@ -124,7 +124,7 @@ const translations = {
     'common.liveOn': 'ਲਾਈਵ ਅਪਡੇਟ ਚਾਲੂ',
     'common.connecting': 'ਕਨੈਕਟ ਹੋ ਰਿਹਾ ਹੈ...',
     'common.registerPrompt': 'ਰਜਿਸਟਰ ਕਰੋ',
-    'common.home': 'ਹੋਮ'
+    'common.home': 'ਹੋਮ',
     'reg.title': 'ਕਿਸਾਨ ਪ੍ਰੋਫਾਈਲ',
     'reg.subtitle': 'ਪੋਰਟਲ ਦੀਆਂ ਸਾਰੀਆਂ ਸੇਵਾਵਾਂ ਵਰਤਣ ਲਈ ਆਪਣੇ ਵੇਰਵੇ ਭਰੋ।',
     'reg.fullName': 'ਪੂਰਾ ਨਾਮ',
