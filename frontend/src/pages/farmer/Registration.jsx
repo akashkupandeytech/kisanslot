@@ -141,3 +141,4 @@ export default function Registration({ farmer, setFarmer, showToast }) {
     )}
   </div>
 );
+}
