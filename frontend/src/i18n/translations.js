@@ -931,7 +931,7 @@ const translations = {
 'slot.booked': 'స్లాట్ విజయవంతంగా బుక్ చేయబడింది.',
 'slot.checkedIn': 'చెక్-ఇన్ చేయబడింది',
 'slot.reslotted': 'మళ్లీ స్లాట్ కేటాయించబడింది',
-'slot.confirmed': 'నిర్ధారించబడింది',3
+'slot.confirmed': 'నిర్ధారించబడింది',
   },
   kn: {
     'gate.title': 'KisanSlot',
