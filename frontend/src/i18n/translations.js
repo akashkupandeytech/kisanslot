@@ -51,7 +51,13 @@ const translations = {
     'reg.landArea': 'Land Area (bigha/hectare)',
     'reg.bankAccount': 'Bank Account (for Payment)',
     'reg.farmingMode': 'Farming Mode',
-    'reg.save': 'Save Profile'
+    'reg.save': 'Save Profile',
+    'payment.title': 'Payment Status',
+    'payment.description': 'PFMS-linked DBT — Initiated → Processed → Credited. Payment begins as soon as weighing is completed.',
+    'payment.empty': 'There are no payments worth displaying at the moment.',
+    'payment.crop': 'Crop',
+    'payment.amount': 'Amount',
+    'payment.stage': 'Payment Stage',
   },
   hi: {
     'gate.title': 'KisanSlot',
@@ -88,18 +94,24 @@ const translations = {
     'common.connecting': 'कनेक्ट हो रहा है..',
     'common.registerPrompt': 'रजिस्टर करें',
     'common.home': 'होम',
-    'reg.title': 'Kisan Profile',
-    'reg.subtitle': 'Apni details bharein taaki portal ki saari services use kar sakein.',
-    'reg.fullName': 'Poora Naam',
-    'reg.guardianName': 'Pita/Pati ka Naam',
-    'reg.mobile': 'Mobile Number',
-    'reg.village': 'Village / Gaon',
-    'reg.district': 'District',
-    'reg.state': 'State',
-    'reg.landArea': 'Land Area (bigha/hectare)',
-    'reg.bankAccount': 'Bank Account (Payment ke liye)',
-    'reg.farmingMode': 'Farming Mode',
-    'reg.save': 'Profile Save Karein'
+    'reg.title': 'किसान प्रोफ़ाइल',
+    'reg.subtitle': 'अपनी जानकारी भरें ताकि पोर्टल की सारी सेवाएं उपयोग कर सकें।',
+    'reg.fullName': 'पूरा नाम',
+    'reg.guardianName': 'पिता/पति का नाम',
+    'reg.mobile': 'मोबाइल नंबर',
+    'reg.village': 'गाँव',
+    'reg.district': 'ज़िला',
+    'reg.state': 'राज्य',
+    'reg.landArea': 'ज़मीन का क्षेत्रफल (बीघा/हेक्टेयर)',
+    'reg.bankAccount': 'बैंक खाता (भुगतान के लिए)',
+    'reg.farmingMode': 'फ़ार्मिंग मोड',
+    'reg.save': 'प्रोफ़ाइल सेव करें',
+    'payment.title': 'भुगतान स्थिति',
+    'payment.description': 'PFMS से जुड़ा DBT — शुरू → संसाधित → जमा। तौल पूरी होते ही भुगतान प्रक्रिया शुरू हो जाती है।',
+    'payment.empty': 'इस समय दिखाने के लिए कोई भुगतान उपलब्ध नहीं है।',
+    'payment.crop': 'फसल',
+    'payment.amount': 'राशि',
+    'payment.stage': 'भुगतान चरण'
   },
   pa: {
     'gate.title': 'KisanSlot',
@@ -147,7 +159,13 @@ const translations = {
     'reg.landArea': 'ਜ਼ਮੀਨ ਦਾ ਖੇਤਰ (ਵਿੱਘਾ/ਹੈਕਟੇਅਰ)',
     'reg.bankAccount': 'ਬੈਂਕ ਖਾਤਾ (ਭੁਗਤਾਨ ਲਈ)',
     'reg.farmingMode': 'ਖੇਤੀ ਦੀ ਕਿਸਮ',
-    'reg.save': 'ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਕਰੋ'
+    'reg.save': 'ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਕਰੋ',
+    'payment.title': 'ਭੁਗਤਾਨ ਸਥਿਤੀ',
+'payment.description': 'PFMS ਨਾਲ ਜੁੜਿਆ DBT — ਸ਼ੁਰੂ → ਪ੍ਰਕਿਰਿਆਧੀਨ → ਜਮ੍ਹਾਂ। ਤੋਲ ਪੂਰੀ ਹੋਣ ਤੋਂ ਬਾਅਦ ਭੁਗਤਾਨ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।',
+'payment.empty': 'ਇਸ ਸਮੇਂ ਦਿਖਾਉਣ ਲਈ ਕੋਈ ਭੁਗਤਾਨ ਨਹੀਂ ਹੈ।',
+'payment.crop': 'ਫਸਲ',
+'payment.amount': 'ਰਕਮ',
+'payment.stage': 'ਭੁਗਤਾਨ ਪੜਾਅ'
   },
   mr: {
     'gate.title': 'KisanSlot',
@@ -195,7 +213,13 @@ const translations = {
     'reg.landArea': 'जमीन क्षेत्र (बिघा/हेक्टर)',
     'reg.bankAccount': 'बँक खाते (पेमेंटसाठी)',
     'reg.farmingMode': 'शेतीचा प्रकार',
-    'reg.save': 'प्रोफाइल सेव्ह करा'
+    'reg.save': 'प्रोफाइल सेव्ह करा',
+    'payment.title': 'पेमेंट स्थिती',
+'payment.description': 'PFMS-संलग्न DBT — सुरू → प्रक्रिया पूर्ण → जमा. वजन पूर्ण झाल्यानंतर पेमेंट प्रक्रिया सुरू होते.',
+'payment.empty': 'सध्या दाखवण्यासाठी कोणतेही पेमेंट उपलब्ध नाही.',
+'payment.crop': 'पीक',
+'payment.amount': 'रक्कम',
+'payment.stage': 'पेमेंटचा टप्पा'
   },
   gu: {
     'gate.title': 'KisanSlot',
@@ -243,7 +267,13 @@ const translations = {
     'reg.landArea': 'જમીનનો વિસ્તાર (વીઘા/હેક્ટર)',
     'reg.bankAccount': 'બેંક ખાતું (ચુકવણી માટે)',
     'reg.farmingMode': 'ખેતીનો પ્રકાર',
-    'reg.save': 'પ્રોફાઇલ સેવ કરો'
+    'reg.save': 'પ્રોફાઇલ સેવ કરો',
+    'payment.title': 'ચુકવણી સ્થિતિ',
+'payment.description': 'PFMS સાથે જોડાયેલ DBT — શરૂ → પ્રક્રિયા → જમા. વજન પૂર્ણ થતાં જ ચુકવણી શરૂ થાય છે.',
+'payment.empty': 'હાલમાં બતાવવા માટે કોઈ ચુકવણી ઉપલબ્ધ નથી.',
+'payment.crop': 'પાક',
+'payment.amount': 'રકમ',
+'payment.stage': 'ચુકવણીનો તબક્કો'
   },
   bn: {
     'gate.title': 'KisanSlot',
@@ -291,7 +321,13 @@ const translations = {
     'reg.landArea': 'জমির পরিমাণ (বিঘা/হেক্টর)',
     'reg.bankAccount': 'ব্যাংক অ্যাকাউন্ট (পেমেন্টের জন্য)',
     'reg.farmingMode': 'চাষের ধরন',
-    'reg.save': 'প্রোফাইল সংরক্ষণ করুন'
+    'reg.save': 'প্রোফাইল সংরক্ষণ করুন',
+    'payment.title': 'পেমেন্টের অবস্থা',
+'payment.description': 'PFMS-সংযুক্ত DBT — শুরু → প্রক্রিয়াকরণ → জমা। ওজন সম্পূর্ণ হওয়ার পরেই পেমেন্ট শুরু হয়।',
+'payment.empty': 'এই মুহূর্তে দেখানোর মতো কোনো পেমেন্ট নেই।',
+'payment.crop': 'ফসল',
+'payment.amount': 'পরিমাণ',
+'payment.stage': 'পেমেন্টের ধাপ'
   },
   ta: {
     'gate.title': 'KisanSlot',
@@ -339,7 +375,13 @@ const translations = {
     'reg.landArea': 'நில பரப்பளவு (பிகா/ஹெக்டேர்)',
     'reg.bankAccount': 'வங்கி கணக்கு (பணம் செலுத்த)',
     'reg.farmingMode': 'விவசாய முறை',
-    'reg.save': 'சுயவிவரத்தை சேமி'
+    'reg.save': 'சுயவிவரத்தை சேமி',
+    'payment.title': 'கட்டண நிலை',
+'payment.description': 'PFMS இணைக்கப்பட்ட DBT — தொடங்கப்பட்டது → செயலாக்கப்பட்டது → வரவு வைக்கப்பட்டது. எடை முடிந்தவுடன் கட்டணம் தொடங்கும்.',
+'payment.empty': 'தற்போது காட்டுவதற்கு எந்த கட்டணமும் இல்லை.',
+'payment.crop': 'பயிர்',
+'payment.amount': 'தொகை',
+'payment.stage': 'கட்டண நிலை'
   },
   te: {
     'gate.title': 'KisanSlot',
@@ -387,7 +429,13 @@ const translations = {
     'reg.landArea': 'భూమి విస్తీర్ణం (బిఘా/హెక్టార్)',
     'reg.bankAccount': 'బ్యాంక్ ఖాతా (చెల్లింపు కోసం)',
     'reg.farmingMode': 'వ్యవసాయ విధానం',
-    'reg.save': 'ప్రొఫైల్ సేవ్ చేయండి'
+    'reg.save': 'ప్రొఫైల్ సేవ్ చేయండి',
+    'payment.title': 'చెల్లింపు స్థితి',
+'payment.description': 'PFMS అనుసంధానిత DBT — ప్రారంభం → ప్రాసెస్ చేయబడింది → జమ చేయబడింది. తూకం పూర్తయిన వెంటనే చెల్లింపు ప్రారంభమవుతుంది.',
+'payment.empty': 'ప్రస్తుతం చూపించడానికి ఎలాంటి చెల్లింపులు లేవు.',
+'payment.crop': 'పంట',
+'payment.amount': 'మొత్తం',
+'payment.stage': 'చెల్లింపు దశ'
   },
   kn: {
     'gate.title': 'KisanSlot',
@@ -435,7 +483,13 @@ const translations = {
     'reg.landArea': 'ಭೂ ವಿಸ್ತೀರ್ಣ (ಬಿಘಾ/ಹೆಕ್ಟೇರ್)',
     'reg.bankAccount': 'ಬ್ಯಾಂಕ್ ಖಾತೆ (ಪಾವತಿಗಾಗಿ)',
     'reg.farmingMode': 'ಕೃಷಿ ವಿಧಾನ',
-    'reg.save': 'ಪ್ರೊಫೈಲ್ ಉಳಿಸಿ'
+    'reg.save': 'ಪ್ರೊಫೈಲ್ ಉಳಿಸಿ',
+    'payment.title': 'ಪಾವತಿ ಸ್ಥಿತಿ',
+'payment.description': 'PFMS-ಸಂಯೋಜಿತ DBT — ಪ್ರಾರಂಭ → ಪ್ರಕ್ರಿಯೆ → ಜಮಾ. ತೂಕ ಪೂರ್ಣಗೊಂಡ ತಕ್ಷಣ ಪಾವತಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ.',
+'payment.empty': 'ಈ ಸಮಯದಲ್ಲಿ ತೋರಿಸಲು ಯಾವುದೇ ಪಾವತಿಗಳಿಲ್ಲ.',
+'payment.crop': 'ಬೆಳೆ',
+'payment.amount': 'ಮೊತ್ತ',
+'payment.stage': 'ಪಾವತಿ ಹಂತ'
   },
   ml: {
     'gate.title': 'KisanSlot',
@@ -483,7 +537,13 @@ const translations = {
     'reg.landArea': 'ഭൂമിയുടെ വിസ്തീർണ്ണം (ബിഘ/ഹെക്ടർ)',
     'reg.bankAccount': 'ബാങ്ക് അക്കൗണ്ട് (പേയ്‌മെന്റിനായി)',
     'reg.farmingMode': 'കൃഷി രീതി',
-    'reg.save': 'പ്രൊഫൈൽ സേവ് ചെയ്യുക'
+    'reg.save': 'പ്രൊഫൈൽ സേവ് ചെയ്യുക',
+    'payment.title': 'പേയ്‌മെന്റ് നില',
+'payment.description': 'PFMS ബന്ധിപ്പിച്ച DBT — ആരംഭിച്ചു → പ്രോസസ്സ് ചെയ്തു → അക്കൗണ്ടിൽ ക്രെഡിറ്റ് ചെയ്തു. തൂക്കം പൂർത്തിയായ ഉടൻ പേയ്‌മെന്റ് ആരംഭിക്കും.',
+'payment.empty': 'ഇപ്പോൾ കാണിക്കാൻ പേയ്‌മെന്റുകളൊന്നുമില്ല.',
+'payment.crop': 'വിള',
+'payment.amount': 'തുക',
+'payment.stage': 'പേയ്‌മെന്റ് ഘട്ടം'
   },
   or: {
     'gate.title': 'KisanSlot',
@@ -531,7 +591,13 @@ const translations = {
     'reg.landArea': 'ଜମି କ୍ଷେତ୍ରଫଳ (ବିଘା/ହେକ୍ଟର)',
     'reg.bankAccount': 'ବ୍ୟାଙ୍କ ଖାତା (ଦେୟ ପାଇଁ)',
     'reg.farmingMode': 'ଚାଷ ପ୍ରକାର',
-    'reg.save': 'ପ୍ରୋଫାଇଲ ସେଭ୍ କରନ୍ତୁ'
+    'reg.save': 'ପ୍ରୋଫାଇଲ ସେଭ୍ କରନ୍ତୁ',
+    'payment.title': 'ପେମେଣ୍ଟ ସ୍ଥିତି',
+'payment.description': 'PFMS ସଂଯୁକ୍ତ DBT — ଆରମ୍ଭ → ପ୍ରକ୍ରିୟାକରଣ → ଜମା। ଓଜନ ସମ୍ପୂର୍ଣ୍ଣ ହେବା ପରେ ପେମେଣ୍ଟ ଆରମ୍ଭ ହୁଏ।',
+'payment.empty': 'ଏହି ସମୟରେ ଦେଖାଇବା ପାଇଁ କୌଣସି ପେମେଣ୍ଟ ନାହିଁ।',
+'payment.crop': 'ଫସଲ',
+'payment.amount': 'ରାଶି',
+'payment.stage': 'ପେମେଣ୍ଟ ପର୍ଯ୍ୟାୟ'
   },
   as: {
     'gate.title': 'KisanSlot',
@@ -579,7 +645,13 @@ const translations = {
     'reg.landArea': 'মাটিৰ পৰিমাণ (বিঘা/হেক্টৰ)',
     'reg.bankAccount': 'বেংক একাউণ্ট (পৰিশোধৰ বাবে)',
     'reg.farmingMode': 'খেতিৰ ধৰণ',
-    'reg.save': "প্ৰ'ফাইল ছেভ কৰক"
+    'reg.save': "প্ৰ'ফাইল ছেভ কৰক",
+    'payment.title': 'পেমেণ্টৰ অৱস্থা',
+'payment.description': 'PFMS-সংযুক্ত DBT — আৰম্ভ → প্ৰক্ৰিয়াকৰণ → জমা। ওজন সম্পূৰ্ণ হোৱাৰ পিছতেই পেমেণ্ট আৰম্ভ হয়।',
+'payment.empty': 'এই মুহূৰ্তত দেখুৱাবলৈ কোনো পেমেণ্ট নাই।',
+'payment.crop': 'শস্য',
+'payment.amount': 'পৰিমাণ',
+'payment.stage': 'পেমেণ্টৰ পৰ্যায়'
   },
   ur: {
     'gate.title': 'KisanSlot',
@@ -627,7 +699,13 @@ const translations = {
     'reg.landArea': 'زمین کا رقبہ (بیگھہ/ہیکٹر)',
     'reg.bankAccount': 'بینک اکاؤنٹ (ادائیگی کے لیے)',
     'reg.farmingMode': 'کاشتکاری کا طریقہ',
-    'reg.save': 'پروفائل محفوظ کریں'
+    'reg.save': 'پروفائل محفوظ کریں',
+    'payment.title': 'ادائیگی کی حیثیت',
+'payment.description': 'PFMS سے منسلک DBT — شروع → پراسیس → جمع۔ وزن مکمل ہوتے ہی ادائیگی شروع ہو جاتی ہے۔',
+'payment.empty': 'اس وقت دکھانے کے لیے کوئی ادائیگی موجود نہیں ہے۔',
+'payment.crop': 'فصل',
+'payment.amount': 'رقم',
+'payment.stage': 'ادائیگی کا مرحلہ'
   }
 };
 
