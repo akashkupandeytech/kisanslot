@@ -159,6 +159,9 @@ const translations = {
 'help.complaintSubmitted': 'Complaint submitted. Our team will contact you soon.',
 'help.complaintAdded': 'Complaint submitted successfully.',
 'help.note': 'Feature-phone users can call the toll-free Kisan Sahayata helpline or visit their nearest CSC / VLE centre.',
+    'notifications.title': 'Notifications',
+'notifications.description': 'This list updates in real time — notifications arrive immediately when operators or officers take action.',
+'notifications.empty': 'No notifications available.',
   },
   hi: {
     'gate.title': 'KisanSlot',
@@ -314,6 +317,9 @@ const translations = {
 'help.complaintSubmitted': 'शिकायत दर्ज हो गई। टीम जल्द संपर्क करेगी।',
 'help.complaintAdded': 'शिकायत सफलतापूर्वक दर्ज हो गई।',
 'help.note': 'फीचर-फोन उपयोगकर्ता टोल-फ्री किसान सहायता हेल्पलाइन पर कॉल कर सकते हैं या अपने नजदीकी CSC / VLE केंद्र पर जा सकते हैं।',
+    'notifications.title': 'सूचनाएं',
+'notifications.description': 'यह सूची रियल-टाइम अपडेट होती है — ऑपरेटर या अधिकारी की कार्रवाई से तुरंत सूचना आती है।',
+'notifications.empty': 'कोई सूचना नहीं है।',
   },
   pa: {
     'gate.title': 'KisanSlot',
@@ -469,6 +475,9 @@ const translations = {
 'help.complaintSubmitted': 'ਸ਼ਿਕਾਇਤ ਦਰਜ ਹੋ ਗਈ ਹੈ। ਟੀਮ ਜਲਦੀ ਸੰਪਰਕ ਕਰੇਗੀ।',
 'help.complaintAdded': 'ਸ਼ਿਕਾਇਤ ਸਫਲਤਾਪੂਰਵਕ ਦਰਜ ਹੋ ਗਈ।',
 'help.note': 'ਫੀਚਰ-ਫੋਨ ਵਰਤੋਂਕਾਰ ਟੋਲ-ਫ੍ਰੀ ਕਿਸਾਨ ਸਹਾਇਤਾ ਹੈਲਪਲਾਈਨ ਤੇ ਕਾਲ ਕਰ ਸਕਦੇ ਹਨ ਜਾਂ ਨੇੜਲੇ CSC / VLE ਕੇਂਦਰ ਤੇ ਜਾ ਸਕਦੇ ਹਨ।',
+    'notifications.title': 'ਸੂਚਨਾਵਾਂ',
+'notifications.description': 'ਇਹ ਸੂਚੀ ਰੀਅਲ-ਟਾਈਮ ਅੱਪਡੇਟ ਹੁੰਦੀ ਹੈ — ਓਪਰੇਟਰ ਜਾਂ ਅਧਿਕਾਰੀ ਦੀ ਕਾਰਵਾਈ ਨਾਲ ਤੁਰੰਤ ਸੂਚਨਾ ਆਉਂਦੀ ਹੈ।',
+'notifications.empty': 'ਕੋਈ ਸੂਚਨਾ ਨਹੀਂ ਹੈ।',
   },
   mr: {
     'gate.title': 'KisanSlot',
@@ -624,6 +633,9 @@ const translations = {
 'help.complaintSubmitted': 'तक्रार नोंदवली आहे. आमची टीम लवकरच संपर्क करेल.',
 'help.complaintAdded': 'तक्रार यशस्वीरित्या नोंदवली.',
 'help.note': 'फीचर-फोन वापरकर्ते टोल-फ्री किसान सहायता हेल्पलाइनवर कॉल करू शकतात किंवा जवळच्या CSC / VLE केंद्राला भेट देऊ शकतात.',
+    'notifications.title': 'सूचना',
+'notifications.description': 'ही यादी रिअल-टाइम अपडेट होते — ऑपरेटर किंवा अधिकाऱ्यांच्या कारवाईनंतर लगेच सूचना येते.',
+'notifications.empty': 'कोणतीही सूचना नाही.',
   },
   gu: {
     'gate.title': 'KisanSlot',
@@ -779,6 +791,9 @@ const translations = {
 'help.complaintSubmitted': 'ફરિયાદ નોંધાઈ ગઈ છે. અમારી ટીમ ટૂંક સમયમાં સંપર્ક કરશે.',
 'help.complaintAdded': 'ફરિયાદ સફળતાપૂર્વક નોંધાઈ.',
 'help.note': 'ફીચર-ફોન વપરાશકર્તાઓ ટોલ-ફ્રી કિસાન સહાયતા હેલ્પલાઇન પર કૉલ કરી શકે છે અથવા નજીકના CSC / VLE કેન્દ્રની મુલાકાત લઈ શકે છે.',
+    'notifications.title': 'સૂચનાઓ',
+'notifications.description': 'આ યાદી રિયલ-ટાઇમ અપડેટ થાય છે — ઓપરેટર અથવા અધિકારીની કાર્યવાહી થતાં તરત સૂચના આવે છે.',
+'notifications.empty': 'કોઈ સૂચના નથી.',
   },
   bn: {
     'gate.title': 'KisanSlot',
@@ -934,6 +949,9 @@ const translations = {
 'help.complaintSubmitted': 'অভিযোগ জমা হয়েছে। আমাদের দল শীঘ্রই যোগাযোগ করবে।',
 'help.complaintAdded': 'অভিযোগ সফলভাবে জমা হয়েছে।',
 'help.note': 'ফিচার-ফোন ব্যবহারকারীরা টোল-ফ্রি কিষাণ সহায়তা হেল্পলাইনে কল করতে পারেন অথবা নিকটস্থ CSC / VLE কেন্দ্রে যেতে পারেন।',
+    'notifications.title': 'বিজ্ঞপ্তি',
+'notifications.description': 'এই তালিকাটি রিয়েল-টাইমে আপডেট হয় — অপারেটর বা কর্মকর্তার কোনো পদক্ষেপের সঙ্গে সঙ্গে বিজ্ঞপ্তি আসে।',
+'notifications.empty': 'কোনো বিজ্ঞপ্তি নেই।',
   },
   ta: {
     'gate.title': 'KisanSlot',
@@ -1089,6 +1107,9 @@ const translations = {
 'help.complaintSubmitted': 'புகார் சமர்ப்பிக்கப்பட்டது. எங்கள் குழு விரைவில் தொடர்பு கொள்ளும்.',
 'help.complaintAdded': 'புகார் வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது.',
 'help.note': 'ஃபீச்சர்-ஃபோன் பயனர்கள் கட்டணமில்லா கிசான் சஹாயதா உதவி எண்ணை அழைக்கலாம் அல்லது அருகிலுள்ள CSC / VLE மையத்திற்குச் செல்லலாம்.',
+    'notifications.title': 'அறிவிப்புகள்',
+'notifications.description': 'இந்தப் பட்டியல் நேரலையில் புதுப்பிக்கப்படுகிறது — இயக்குநர் அல்லது அதிகாரியின் நடவடிக்கையால் உடனடியாக அறிவிப்பு வரும்.',
+'notifications.empty': 'அறிவிப்புகள் எதுவும் இல்லை.',
   },
   te: {
     'gate.title': 'KisanSlot',
@@ -1244,6 +1265,9 @@ const translations = {
 'help.complaintSubmitted': 'ఫిర్యాదు సమర్పించబడింది. మా బృందం త్వరలో సంప్రదిస్తుంది.',
 'help.complaintAdded': 'ఫిర్యాదు విజయవంతంగా సమర్పించబడింది.',
 'help.note': 'ఫీచర్-ఫోన్ వినియోగదారులు టోల్-ఫ్రీ కిసాన్ సహాయత హెల్ప్‌లైన్‌కు కాల్ చేయవచ్చు లేదా సమీపంలోని CSC / VLE కేంద్రాన్ని సందర్శించవచ్చు.',
+    'notifications.title': 'నోటిఫికేషన్లు',
+'notifications.description': 'ఈ జాబితా రియల్-టైమ్‌లో అప్‌డేట్ అవుతుంది — ఆపరేటర్ లేదా అధికారి చర్య తీసుకున్న వెంటనే నోటిఫికేషన్ వస్తుంది.',
+'notifications.empty': 'ఎలాంటి నోటిఫికేషన్లు లేవు.',
   },
   kn: {
     'gate.title': 'KisanSlot',
@@ -1399,6 +1423,9 @@ const translations = {
 'help.complaintSubmitted': 'ದೂರು ಸಲ್ಲಿಸಲಾಗಿದೆ. ನಮ್ಮ ತಂಡ ಶೀಘ್ರದಲ್ಲೇ ಸಂಪರ್ಕಿಸುತ್ತದೆ.',
 'help.complaintAdded': 'ದೂರು ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ.',
 'help.note': 'ಫೀಚರ್-ಫೋನ್ ಬಳಕೆದಾರರು ಟೋಲ್-ಫ್ರೀ ಕಿಸಾನ್ ಸಹಾಯತಾ ಹೆಲ್ಪ್‌ಲೈನ್‌ಗೆ ಕರೆ ಮಾಡಬಹುದು ಅಥವಾ ಹತ್ತಿರದ CSC / VLE ಕೇಂದ್ರಕ್ಕೆ ಭೇಟಿ ನೀಡಬಹುದು.',
+    'notifications.title': 'ಅಧಿಸೂಚನೆಗಳು',
+'notifications.description': 'ಈ ಪಟ್ಟಿಯು ರಿಯಲ್-ಟೈಮ್‌ನಲ್ಲಿ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತದೆ — ಆಪರೇಟರ್ ಅಥವಾ ಅಧಿಕಾರಿಯ ಕ್ರಮದಿಂದ ತಕ್ಷಣ ಅಧಿಸೂಚನೆ ಬರುತ್ತದೆ.',
+'notifications.empty': 'ಯಾವುದೇ ಅಧಿಸೂಚನೆಗಳಿಲ್ಲ.',
   },
   ml: {
     'gate.title': 'KisanSlot',
@@ -1554,6 +1581,9 @@ const translations = {
 'help.complaintSubmitted': 'പരാതി സമർപ്പിച്ചു. ഞങ്ങളുടെ ടീം ഉടൻ ബന്ധപ്പെടും.',
 'help.complaintAdded': 'പരാതി വിജയകരമായി സമർപ്പിച്ചു.',
 'help.note': 'ഫീച്ചർ-ഫോൺ ഉപയോക്താക്കൾ ടോൾ-ഫ്രീ കിസാൻ സഹായത ഹെൽപ്‌ലൈനിൽ വിളിക്കുകയോ അടുത്തുള്ള CSC / VLE കേന്ദ്രം സന്ദർശിക്കുകയോ ചെയ്യാം.',
+    'notifications.title': 'അറിയിപ്പുകൾ',
+'notifications.description': 'ഈ ലിസ്റ്റ് തത്സമയം അപ്‌ഡേറ്റ് ചെയ്യുന്നു — ഓപ്പറേറ്ററുടെയോ ഉദ്യോഗസ്ഥന്റെയോ നടപടിയെത്തുടർന്ന് ഉടൻ അറിയിപ്പ് ലഭിക്കും.',
+'notifications.empty': 'അറിയിപ്പുകളൊന്നുമില്ല.',
   },
   or: {
     'gate.title': 'KisanSlot',
@@ -1709,6 +1739,9 @@ const translations = {
 'help.complaintSubmitted': 'ଅଭିଯୋଗ ଦାଖଲ ହୋଇଛି। ଆମ ଟିମ୍ ଶୀଘ୍ର ଯୋଗାଯୋଗ କରିବ।',
 'help.complaintAdded': 'ଅଭିଯୋଗ ସଫଳତାର ସହ ଦାଖଲ ହୋଇଛି।',
 'help.note': 'ଫିଚର୍-ଫୋନ୍ ବ୍ୟବହାରକାରୀମାନେ ଟୋଲ୍-ଫ୍ରି କିସାନ ସହାୟତା ହେଲ୍ପଲାଇନକୁ କଲ୍ କରିପାରିବେ କିମ୍ବା ନିକଟସ୍ଥ CSC / VLE କେନ୍ଦ୍ରକୁ ଯାଇପାରିବେ।',
+    'notifications.title': 'ବିଜ୍ଞପ୍ତି',
+'notifications.description': 'ଏହି ତାଲିକା ରିଅଲ୍-ଟାଇମ୍ ଅପଡେଟ୍ ହୁଏ — ଅପରେଟର କିମ୍ବା ଅଧିକାରୀଙ୍କ କାର୍ଯ୍ୟ ପରେ ତୁରନ୍ତ ବିଜ୍ଞପ୍ତି ଆସେ।',
+'notifications.empty': 'କୌଣସି ବିଜ୍ଞପ୍ତି ନାହିଁ।',
   },
   as: {
     'gate.title': 'KisanSlot',
@@ -1864,6 +1897,9 @@ const translations = {
 'help.complaintSubmitted': 'অভিযোগ দাখিল কৰা হৈছে। আমাৰ দলে সোনকালে যোগাযোগ কৰিব।',
 'help.complaintAdded': 'অভিযোগ সফলভাৱে দাখিল কৰা হৈছে।',
 'help.note': 'ফিচাৰ-ফোন ব্যৱহাৰকাৰীয়ে টোল-ফ্ৰী কিষাণ সহায়তা হেল্পলাইনলৈ ফোন কৰিব পাৰে অথবা ওচৰৰ CSC / VLE কেন্দ্ৰলৈ যাব পাৰে।',
+    'notifications.title': 'জাননীসমূহ',
+'notifications.description': 'এই তালিকাখন ৰিয়েল-টাইমত আপডেট হয় — অপাৰেটৰ বা বিষয়াৰ কাৰ্যৰ লগে লগে জাননী আহে।',
+'notifications.empty': 'কোনো জাননী নাই।',
   },
   ur: {
     'gate.title': 'KisanSlot',
@@ -2019,6 +2055,9 @@ const translations = {
 'help.complaintSubmitted': 'شکایت درج ہو گئی ہے۔ ہماری ٹیم جلد رابطہ کرے گی۔',
 'help.complaintAdded': 'شکایت کامیابی سے درج ہو گئی۔',
 'help.note': 'فیچر فون صارفین ٹول فری کسان سہایتا ہیلپ لائن پر کال کر سکتے ہیں یا قریبی CSC / VLE مرکز جا سکتے ہیں۔',
+    'notifications.title': 'اطلاعات',
+'notifications.description': 'یہ فہرست ریئل ٹائم میں اپ ڈیٹ ہوتی ہے — آپریٹر یا افسر کی کارروائی کے فوراً بعد اطلاع آتی ہے۔',
+'notifications.empty': 'کوئی اطلاع نہیں ہے۔',
   }
 };
 
