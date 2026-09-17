@@ -28,8 +28,11 @@ export default function Registration({ farmer, setFarmer, showToast }) {
 
   return (
     <div className="card">
-      <h3>Farmer Profile</h3>
-      <p className="desc">Apni details bharein taaki portal ki saari services use kar sakein.</p>
+    <h3>{t('profile.title')}</h3>
+
+    <p className="desc">
+      {t('profile.description')}
+    </p>
       <div className="row2">
         <div className="field"><label>Poora Naam</label><input value={form.name} onChange={update('name')} placeholder="Ram Singh" /></div>
         <div className="field"><label>Pita/Pati ka Naam</label><input value={form.father} onChange={update('father')} placeholder="Shyam Singh" /></div>
