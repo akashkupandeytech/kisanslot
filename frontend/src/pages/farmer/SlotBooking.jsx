@@ -45,8 +45,11 @@ export default function SlotBooking({
   const [msg, setMsg] = useState(null);
   const [lastToken, setLastToken] = useState(null);
 
-  useEffect(() => {
-    api.get('/centres').then((res) => {
+ useEffect(() => {
+  api.get('/centres')
+    .then((res) => {
+      console.log("CENTRES RESPONSE:", res.data);
+
       setCentres(res.data);
 
       if (res.data[0]) {
@@ -55,8 +58,13 @@ export default function SlotBooking({
           centre: res.data[0].name
         }));
       }
+    })
+    .catch((err) => {
+      console.error("CENTRES ERROR:", err);
+      console.error("STATUS:", err.response?.status);
+      console.error("DATA:", err.response?.data);
     });
-  }, []);
+}, []);
 
   useEffect(() => {
     if (crops[0] && !form.crop) {
